@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e530c863-60fd-42f8-8ea9-1f4bc5a77021</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>app.html</ApplicationPage>
+    <Name>Shared</Name>
+    <RootNamespace>Storyline4</RootNamespace>
+    <ScreenOrientation>Landscape</ScreenOrientation>
+    <ApplicationTitle>Storyline4.Shared</ApplicationTitle>
+    <BundleIdentifier>Storyline4.Shared</BundleIdentifier>
+    <VersionPackage>1.0</VersionPackage>
+    <ShowSplashScreen>True</ShowSplashScreen>
+    <DebugSitePortNumber>50000</DebugSitePortNumber>
+    <UseWebDev>False</UseWebDev>
+    <DefaultDevice>androidTablet</DefaultDevice>
+    <DeviceOrientation>Landscape</DeviceOrientation>
+    <KeyApkPath />
+    <KeyApkAlias />
+    <VersionCode>1</VersionCode>
+    <TemplateFileApk />
+    <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
+    <KeyIpaPath />
+    <ProvisionProfile />
+    <IpaPrivateKeyFile />
+    <TemplateFileIpa />
+    <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
+    <IpaDevicesFamily>Universal</IpaDevicesFamily>
+    <IpaSupportedLanguages />
+    <XapPackagePublisherID>{f778c4af-5e6e-4207-87a4-9429d7d27d98}</XapPackagePublisherID>
+    <XapPackageProductID>{6d11c2e2-9df2-43da-ba46-1d63946f8da4}</XapPackageProductID>
+    <TemplateFileXap />
+    <UseCustomTemplateNameXap>False</UseCustomTemplateNameXap>
+    <XapSupportedLanguages />
+    <DefaultLanguageXAP>ru</DefaultLanguageXAP>
+    <AuthorKeyWgtPath />
+    <DistributorKeyWgtPath />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="data\db.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.png" />
+    <Content Include="ioslaunch.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\dx.all.js" />
+    <Content Include="js\dx.all.debug.js" />
+    <Content Include="js\localization\dx.all.de.js" />
+    <Content Include="js\localization\dx.all.ja.js" />
+    <Content Include="js\localization\dx.all.ru.js" />
+    <Content Include="js\globalize.min.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-2.1.1.min.js" />
+    <Content Include="js\knockout-3.1.0.js" />
+    <Content Include="css\dx.spa.css" />
+    <Content Include="css\dx.common.css" />
+    <Content Include="css\dx.dark.css" />
+    <Content Include="css\dx.light.css" />
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.android.holo-light.css" />
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.ios7.default.css" />
+    <Content Include="css\dx.win8.black.css" />
+    <Content Include="css\dx.win8.white.css" />
+    <Content Include="css\dx.tizen.black.css" />
+    <Content Include="css\dx.tizen.white.css" />
+    <Content Include="meta.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\app_store.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\controls.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\data.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\data.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\fonts.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\icon_loading.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\linen_background.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\masks.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\mobileinstall.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\mobile_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\player.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\player_compiled.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5g7mH4necyX.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5g7mH4necyX.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5gBXpG32B2V.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5gBXpG32B2V.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5qkQrnPRPOP.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5qkQrnPRPOP.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5t5sL7dXDp7.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5t5sL7dXDp7.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5uBDNm1A29d.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5uBDNm1A29d.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5YbUNBVaiWd.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5YbUNBVaiWd.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5zi3Pj3aSeN.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5zi3Pj3aSeN.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\65uLRQFpyW4.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\65uLRQFpyW4.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\65YvJVcjcmf.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\65YvJVcjcmf.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\66blorht8kD.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\66blorht8kD.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\66hkMvAS7O9.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\66hkMvAS7O9.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\69JeWY5hwsI.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\69JeWY5hwsI.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6eN27NbDtb9.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6eN27NbDtb9.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6eXTkyIvJR4.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6eXTkyIvJR4.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6Ij22IVdiOz.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6Ij22IVdiOz.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6Im6OLOk6WX.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6Im6OLOk6WX.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6IvOTWzMpzl.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6IvOTWzMpzl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6kVVPxhaqcr.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6kVVPxhaqcr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6p4wkOODjXG.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6p4wkOODjXG.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6S5zwanuYwB.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6S5zwanuYwB.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6TaiSWN6sH2.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6TaiSWN6sH2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6ZSTAK70xSd.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6ZSTAK70xSd.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\spinner.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\storyline_compiled.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\wait.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="storyline4.shared.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\blank.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\data.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\fonts.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\fonts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\frame.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\frame.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\frame.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5g7mH4necyX.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5gBXpG32B2V.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5qkQrnPRPOP.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5t5sL7dXDp7.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5uBDNm1A29d.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5YbUNBVaiWd.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5zi3Pj3aSeN.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\65uLRQFpyW4.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\65YvJVcjcmf.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\66blorht8kD.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\66hkMvAS7O9.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\69JeWY5hwsI.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6eN27NbDtb9.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6eXTkyIvJR4.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6Ij22IVdiOz.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6Im6OLOk6WX.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6IvOTWzMpzl.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6kVVPxhaqcr.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6p4wkOODjXG.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6S5zwanuYwB.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6TaiSWN6sH2.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6ZSTAK70xSd.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\story.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\thumbnail.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\user.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_html5.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_unsupported.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\about.html" />
+    <Content Include="views\blank.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="mobile\" />
+    <Folder Include="mobile\slides\" />
+    <Folder Include="Resources\" />
+    <Folder Include="story_content\" />
+    <Folder Include="story_content\slides\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_96_96.png" />
+    <None Include="Resources\PackageIcons.Android.splash_1280_720.png" />
+    <None Include="Resources\PackageIcons.Android.splash_200_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_200.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_480.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_800.png" />
+    <None Include="Resources\PackageIcons.Android.splash_720_1280.png" />
+    <None Include="Resources\PackageIcons.Android.splash_800_480.png" />
+    <None Include="Resources\PackageIcons.iOS.Default%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-568h%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-120.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-152.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76.png" />
+    <None Include="Resources\PackageIcons.iOS.icon.png" />
+    <None Include="Resources\PackageIcons.iOS.iTunesArtwork.png" />
+    <None Include="Resources\PackageIcons.Tizen.icon_117_117.png" />
+    <None Include="Resources\PackageIcons.WP.ApplicationIcon_99_99.png" />
+    <None Include="Resources\PackageIcons.WP.Background.png_144_144.png" />
+    <None Include="Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg" />
+    <None Include="Resources\PackageIcons.WP.TileMedium.png" />
+    <None Include="Resources\PackageIcons.WP.TileSmall.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(GeneratedJavascript->'%(Identity)')" DestinationFiles="@(GeneratedJavascript-&gt;'%(Identity)'-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>

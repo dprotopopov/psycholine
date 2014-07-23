@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="6DbRLN6fJLz_course_id" type="course">
+			<name lang="und">Не слишком ли ты самоуверен</name>
+			<description lang="und">Психологическое самотестирование</description>
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="5kWbk8pbp7u" type="objective">
+			<name lang="und">Results</name>
+			<description lang="und">Results</description>
+		</activity>
+		<activity id="6gEF6WWROTQ" type="module">
+			<name lang="und">Untitled Slide</name>
+			<description lang="und">Untitled Slide</description>
+		</activity>
+		<activity id="6Ud02eXIqKD" type="module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="5Z9IwIlQr6I" type="module">
+			<name lang="und">В последние три года я брал хотя бы один кредит или ссуду.</name>
+			<description lang="und">В последние три года я брал хотя бы один кредит или ссуду.</description>
+		</activity>
+		<activity id="5Z9IwIlQr6I.6GSiNvUDJFA" type="cmi.interaction">
+			<name lang="und">В последние три года я брал хотя бы один кредит или ссуду.</name>
+			<description lang="und">В последние три года я брал хотя бы один кредит или ссуду.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6LsakfZTQq8</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_6GOamcFousM</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="5sGFcnVHz6B" type="module">
+			<name lang="und">За последний год я прочитал хотя бы одну книгу о том как быть уверенным в себе.</name>
+			<description lang="und">За последний год я прочитал хотя бы одну книгу о том как быть уверенным в себе.</description>
+		</activity>
+		<activity id="5sGFcnVHz6B.5tIcQq83TjT" type="cmi.interaction">
+			<name lang="und">За последний год я прочитал хотя бы одну книгу о том как быть уверенным в себе.</name>
+			<description lang="und">За последний год я прочитал хотя бы одну книгу о том как быть уверенным в себе.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_5yUWfDRUNO2</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_69T1Egco7pk</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6au8OBVpi7x" type="module">
+			<name lang="und">Я знаю, что человек использует свой мозг лишь на пять процентов, и не сомневаюсь в этом.</name>
+			<description lang="und">Я знаю, что человек использует свой мозг лишь на пять процентов, и не сомневаюсь в этом.</description>
+		</activity>
+		<activity id="6au8OBVpi7x.66a7lX9oDQM" type="cmi.interaction">
+			<name lang="und">Я знаю, что человек использует свой мозг лишь на пять процентов, и не сомневаюсь в этом.</name>
+			<description lang="und">Я знаю, что человек использует свой мозг лишь на пять процентов, и не сомневаюсь в этом.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_5iw3ptmVt2Q</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_5bZ1bQxAoFU</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6UdEYVRKU9K" type="module">
+			<name lang="und">Моим близким не хватает уверенности в себе для того, чтобы добиться успеха в жизни.</name>
+			<description lang="und">Моим близким не хватает уверенности в себе для того, чтобы добиться успеха в жизни.</description>
+		</activity>
+		<activity id="6UdEYVRKU9K.6EElnR1OZBs" type="cmi.interaction">
+			<name lang="und">Моим близким не хватает уверенности в себе для того, чтобы добиться успеха в жизни.</name>
+			<description lang="und">Моим близким не хватает уверенности в себе для того, чтобы добиться успеха в жизни.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_5kB8uxZHjMV</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_69arjugkqon</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6h61F91117c" type="module">
+			<name lang="und">Как правило, мне легко удаётся произвести впечатление делового и уверенного человека, знающего что он хочет.</name>
+			<description lang="und">Как правило, мне легко удаётся произвести впечатление делового и уверенного человека, знающего что он хочет.</description>
+		</activity>
+		<activity id="6h61F91117c.5fCRXbTig0x" type="cmi.interaction">
+			<name lang="und">Как правило, мне легко удаётся произвести впечатление делового и уверенного человека, знающего что он хочет.</name>
+			<description lang="und">Как правило, мне легко удаётся произвести впечатление делового и уверенного человека, знающего что он хочет.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6gxoiUabMtU</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_5fPBcbvR794</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="61kdP91KVlr" type="module">
+			<name lang="und">Мне легко удаётся управлять поведением других людей даже интонациями своего голоса.</name>
+			<description lang="und">Мне легко удаётся управлять поведением других людей даже интонациями своего голоса.</description>
+		</activity>
+		<activity id="61kdP91KVlr.61kNHwFP4ur" type="cmi.interaction">
+			<name lang="und">Мне легко удаётся управлять поведением других людей даже интонациями своего голоса.</name>
+			<description lang="und">Мне легко удаётся управлять поведением других людей даже интонациями своего голоса.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6KTZD86eFah</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_5ZgWjooH9wB</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6QLi3izSaxZ" type="module">
+			<name lang="und">Мне некогда заниматься получением новых знаний и умений. В крайнем случае я всегда могу найти людей, которые дадут мне необходимую консультацию, или просто нужных специалистов.</name>
+			<description lang="und">Мне некогда заниматься получением новых знаний и умений. В крайнем случае я всегда могу найти людей, которые дадут мне необходимую консультацию, или просто нужных специалистов.</description>
+		</activity>
+		<activity id="6QLi3izSaxZ.68EriF8VJJi" type="cmi.interaction">
+			<name lang="und">Мне некогда заниматься получением новых знаний и умений. В крайнем случае я всегда могу найти людей, которые дадут мне необходимую консультацию, или просто нужных специалистов.</name>
+			<description lang="und">Мне некогда заниматься получением новых знаний и умений. В крайнем случае я всегда могу найти людей, которые дадут мне необходимую консультацию, или просто нужных специалистов.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6nT83XqTN8V</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_6732RkabTj5</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="643jtCJwbYF" type="module">
+			<name lang="und">Если чувство уверенности страдает от каких-то случайных неудач, я вылезаю из кожи чтобы добиться нужного мне результата.</name>
+			<description lang="und">Если чувство уверенности страдает от каких-то случайных неудач, я вылезаю из кожи чтобы добиться нужного мне результата.</description>
+		</activity>
+		<activity id="643jtCJwbYF.5sAPEKEKwui" type="cmi.interaction">
+			<name lang="und">Если чувство уверенности страдает от каких-то случайных неудач, я вылезаю из кожи чтобы добиться нужного мне результата.</name>
+			<description lang="und">Если чувство уверенности страдает от каких-то случайных неудач, я вылезаю из кожи чтобы добиться нужного мне результата.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6J3Til4f78w</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_6jJLGD93VZx</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6KDOgUoq118" type="module">
+			<name lang="und">Я нисколько не сутулюсь. Даже наоборот, стараюсь казаться как можно выше.</name>
+			<description lang="und">Я нисколько не сутулюсь. Даже наоборот, стараюсь казаться как можно выше.</description>
+		</activity>
+		<activity id="6KDOgUoq118.5amekN3zBxs" type="cmi.interaction">
+			<name lang="und">Я нисколько не сутулюсь. Даже наоборот, стараюсь казаться как можно выше.</name>
+			<description lang="und">Я нисколько не сутулюсь. Даже наоборот, стараюсь казаться как можно выше.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_5m651eQtXgF</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_5cMWd7yUsuC</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6CbM8ZnQu5b" type="module">
+			<name lang="und">Если я захочу, то мне будет несложно завести "знакомство на вечер" с каким-нибудь сексуальным мужчиной или женщиной.</name>
+			<description lang="und">Если я захочу, то мне будет несложно завести "знакомство на вечер" с каким-нибудь сексуальным мужчиной или женщиной.</description>
+		</activity>
+		<activity id="6CbM8ZnQu5b.5r1RzXcN07v" type="cmi.interaction">
+			<name lang="und">Если я захочу, то мне будет несложно завести "знакомство на вечер" с каким-нибудь сексуальным мужчиной или женщиной.</name>
+			<description lang="und">Если я захочу, то мне будет несложно завести "знакомство на вечер" с каким-нибудь сексуальным мужчиной или женщиной.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6Q5NPHe03Tl</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_6CcRYwLPVRw</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="5gkPFlQcnpE" type="module">
+			<name lang="und">Когда надо, я не стесняюсь в выражениях и могу кому угодно сказать что угодно.</name>
+			<description lang="und">Когда надо, я не стесняюсь в выражениях и могу кому угодно сказать что угодно.</description>
+		</activity>
+		<activity id="5gkPFlQcnpE.6gLQDwbEFZM" type="cmi.interaction">
+			<name lang="und">Когда надо, я не стесняюсь в выражениях и могу кому угодно сказать что угодно.</name>
+			<description lang="und">Когда надо, я не стесняюсь в выражениях и могу кому угодно сказать что угодно.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_5YbZ447GxCr</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_6nQe5bzXQ3N</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="6IXoYaTeQNH" type="module">
+			<name lang="und">Хотя бы раз в неделю я репетирую перед зеркалом свои коронные жесты и высказывания.</name>
+			<description lang="und">Хотя бы раз в неделю я репетирую перед зеркалом свои коронные жесты и высказывания.</description>
+		</activity>
+		<activity id="6IXoYaTeQNH.5g8FsMPSmQq" type="cmi.interaction">
+			<name lang="und">Хотя бы раз в неделю я репетирую перед зеркалом свои коронные жесты и высказывания.</name>
+			<description lang="und">Хотя бы раз в неделю я репетирую перед зеркалом свои коронные жесты и высказывания.</description>
+			<interactionType>choice</interactionType>
+			<choices>
+				<component>
+					<id>choice_6Oi203XFjsb</id>
+					<description lang="und">Да</description>
+				</component>
+				<component>
+					<id>choice_5ZzD7O5q00z</id>
+					<description lang="und">Нет</description>
+				</component>
+			</choices>
+		</activity>
+	</activities>
+</tincan>
