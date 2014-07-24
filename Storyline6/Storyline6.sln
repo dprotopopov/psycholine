@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline6.Shared", "Storyline6.Shared\Storyline6.Shared.dxjsproj", "{8F59233E-C7DC-4FB2-8881-936486EC238D}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline6.Mobile", "Storyline6.Mobile\Storyline6.Mobile.dxjsproj", "{27885587-E0EC-4A91-AEAD-7FAD65FF3A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8E533CC-843E-4F75-A289-95F2F58D70C9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Артистические наклонности.story = Артистические наклонности.story
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F59233E-C7DC-4FB2-8881-936486EC238D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F59233E-C7DC-4FB2-8881-936486EC238D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F59233E-C7DC-4FB2-8881-936486EC238D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F59233E-C7DC-4FB2-8881-936486EC238D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27885587-E0EC-4A91-AEAD-7FAD65FF3A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27885587-E0EC-4A91-AEAD-7FAD65FF3A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27885587-E0EC-4A91-AEAD-7FAD65FF3A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27885587-E0EC-4A91-AEAD-7FAD65FF3A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

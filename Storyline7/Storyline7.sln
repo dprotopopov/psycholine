@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline7.Shared", "Storyline7.Shared\Storyline7.Shared.dxjsproj", "{66DEC50C-1988-4AF4-965F-643A8A99699C}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline7.Mobile", "Storyline7.Mobile\Storyline7.Mobile.dxjsproj", "{AEEA0BA7-2A73-40D9-AC45-4ABC90AB29F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4910161-F86A-4D81-9627-7ED8CAA2FBAE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66DEC50C-1988-4AF4-965F-643A8A99699C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DEC50C-1988-4AF4-965F-643A8A99699C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DEC50C-1988-4AF4-965F-643A8A99699C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DEC50C-1988-4AF4-965F-643A8A99699C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEA0BA7-2A73-40D9-AC45-4ABC90AB29F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEA0BA7-2A73-40D9-AC45-4ABC90AB29F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEA0BA7-2A73-40D9-AC45-4ABC90AB29F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEA0BA7-2A73-40D9-AC45-4ABC90AB29F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
