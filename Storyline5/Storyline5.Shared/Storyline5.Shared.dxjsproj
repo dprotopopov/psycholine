@@ -9,7 +9,7 @@
     <Name>Shared</Name>
     <RootNamespace>Storyline5</RootNamespace>
     <ScreenOrientation>Landscape</ScreenOrientation>
-    <ApplicationTitle>Storyline5.Shared</ApplicationTitle>
+    <ApplicationTitle>Опросник EPQ</ApplicationTitle>
     <BundleIdentifier>Storyline5.Shared</BundleIdentifier>
     <VersionPackage>1.0</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>

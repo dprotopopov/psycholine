@@ -26,14 +26,14 @@
     <DefaultLanguageXAP>ru</DefaultLanguageXAP>
     <DebugSitePortNumber>50000</DebugSitePortNumber>
     <UseWebDev>False</UseWebDev>
-    <DefaultDevice>androidTablet</DefaultDevice>
+    <DefaultDevice>win8Phone</DefaultDevice>
     <DeviceOrientation>Landscape</DeviceOrientation>
     <ScreenOrientation>Landscape</ScreenOrientation>
     <ApplicationTitle>Не слишком ли ты самоуверен</ApplicationTitle>
     <BundleIdentifier>Storyline1.Mobile</BundleIdentifier>
-    <VersionPackage>1.0</VersionPackage>
+    <VersionPackage>1.1.0.1</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
-    <VersionCode>3</VersionCode>
+    <VersionCode>7</VersionCode>
     <TemplateFileApk />
     <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
     <AuthorKeyWgtPath />

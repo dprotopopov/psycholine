@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline20.Shared", "Storyline20.Shared\Storyline20.Shared.dxjsproj", "{80EE3D6C-8576-4637-ACD7-20C1ACAD7268}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline20.Mobile", "Storyline20.Mobile\Storyline20.Mobile.dxjsproj", "{E35E72B7-B62C-4B6D-8C1B-1D5A095F025F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F616290-3970-4365-8D4C-66C99E4914EB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Взгляд на Вас со стороны.story = Взгляд на Вас со стороны.story
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80EE3D6C-8576-4637-ACD7-20C1ACAD7268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80EE3D6C-8576-4637-ACD7-20C1ACAD7268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80EE3D6C-8576-4637-ACD7-20C1ACAD7268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80EE3D6C-8576-4637-ACD7-20C1ACAD7268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35E72B7-B62C-4B6D-8C1B-1D5A095F025F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35E72B7-B62C-4B6D-8C1B-1D5A095F025F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35E72B7-B62C-4B6D-8C1B-1D5A095F025F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35E72B7-B62C-4B6D-8C1B-1D5A095F025F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -9,7 +9,7 @@
     <Name>Shared</Name>
     <RootNamespace>Storyline8</RootNamespace>
     <ScreenOrientation>Landscape</ScreenOrientation>
-    <ApplicationTitle>Storyline8.Shared</ApplicationTitle>
+    <ApplicationTitle>Тест психологического здоровья</ApplicationTitle>
     <BundleIdentifier>Storyline8.Shared</BundleIdentifier>
     <VersionPackage>1.0</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>

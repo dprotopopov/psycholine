@@ -10,17 +10,17 @@
     <Name>Storyline7.Mobile</Name>
     <KeyApkPath>certificates\android_certificate.p12</KeyApkPath>
     <KeyApkAlias>tmpl</KeyApkAlias>
-    <VersionCode>1</VersionCode>
+    <VersionCode>3</VersionCode>
     <TemplateFileApk />
     <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
     <ScreenOrientation>Landscape</ScreenOrientation>
-    <ApplicationTitle>Storyline7.Mobile</ApplicationTitle>
+    <ApplicationTitle>Работоголик ли Вы</ApplicationTitle>
     <BundleIdentifier>Storyline7.Mobile</BundleIdentifier>
     <VersionPackage>1.0</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
     <DebugSitePortNumber>50000</DebugSitePortNumber>
     <UseWebDev>False</UseWebDev>
-    <DefaultDevice>androidTablet</DefaultDevice>
+    <DefaultDevice>win8Phone</DefaultDevice>
     <DeviceOrientation>Landscape</DeviceOrientation>
     <KeyIpaPath />
     <ProvisionProfile />

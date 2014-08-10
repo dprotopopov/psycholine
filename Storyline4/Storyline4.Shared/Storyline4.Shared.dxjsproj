@@ -9,7 +9,7 @@
     <Name>Shared</Name>
     <RootNamespace>Storyline4</RootNamespace>
     <ScreenOrientation>Landscape</ScreenOrientation>
-    <ApplicationTitle>Storyline4.Shared</ApplicationTitle>
+    <ApplicationTitle>Страх ошибки</ApplicationTitle>
     <BundleIdentifier>Storyline4.Shared</BundleIdentifier>
     <VersionPackage>1.0</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>

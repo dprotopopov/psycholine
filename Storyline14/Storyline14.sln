@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline14.Shared", "Storyline14.Shared\Storyline14.Shared.dxjsproj", "{A1987BA0-B8E2-4830-A5AC-61F5711962BE}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Storyline14.Mobile", "Storyline14.Mobile\Storyline14.Mobile.dxjsproj", "{BAE02031-6020-4B13-B00A-5D3AEE3F4FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7C3C5F1-14C3-4DDD-861B-AB7549FA9963}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Ананкастические проявления.story = Ананкастические проявления.story
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1987BA0-B8E2-4830-A5AC-61F5711962BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1987BA0-B8E2-4830-A5AC-61F5711962BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1987BA0-B8E2-4830-A5AC-61F5711962BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1987BA0-B8E2-4830-A5AC-61F5711962BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE02031-6020-4B13-B00A-5D3AEE3F4FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE02031-6020-4B13-B00A-5D3AEE3F4FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE02031-6020-4B13-B00A-5D3AEE3F4FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE02031-6020-4B13-B00A-5D3AEE3F4FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

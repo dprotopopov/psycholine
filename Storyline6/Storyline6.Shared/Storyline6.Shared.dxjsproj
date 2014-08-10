@@ -9,7 +9,7 @@
     <Name>Shared</Name>
     <RootNamespace>Storyline6</RootNamespace>
     <ScreenOrientation>Landscape</ScreenOrientation>
-    <ApplicationTitle>Storyline6.Shared</ApplicationTitle>
+    <ApplicationTitle>Артистические наклонности</ApplicationTitle>
     <BundleIdentifier>Storyline6.Shared</BundleIdentifier>
     <VersionPackage>1.0</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>

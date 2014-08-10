@@ -11,11 +11,11 @@
     <ScreenOrientation>Landscape</ScreenOrientation>
     <ApplicationTitle>Честность</ApplicationTitle>
     <BundleIdentifier>Storyline2.Mobile</BundleIdentifier>
-    <VersionPackage>1.0</VersionPackage>
+    <VersionPackage>1.1</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
     <KeyApkPath>certificates\android_certificate.p12</KeyApkPath>
     <KeyApkAlias>tmpl</KeyApkAlias>
-    <VersionCode>4</VersionCode>
+    <VersionCode>6</VersionCode>
     <TemplateFileApk />
     <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
     <KeyIpaPath />
@@ -35,7 +35,7 @@
     <DistributorKeyWgtPath />
     <DebugSitePortNumber>50000</DebugSitePortNumber>
     <UseWebDev>False</UseWebDev>
-    <DefaultDevice>androidTablet</DefaultDevice>
+    <DefaultDevice>win8Phone</DefaultDevice>
     <DeviceOrientation>Landscape</DeviceOrientation>
     <ApkDexFilePackageName>app.id_39a820e7de5a41b9be4da65ea6751cd0</ApkDexFilePackageName>
   </PropertyGroup>

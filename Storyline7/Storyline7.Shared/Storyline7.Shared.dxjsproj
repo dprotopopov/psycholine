@@ -9,7 +9,7 @@
     <Name>Shared</Name>
     <RootNamespace>Storyline7</RootNamespace>
     <ScreenOrientation>Landscape</ScreenOrientation>
-    <ApplicationTitle>Storyline7.Shared</ApplicationTitle>
+    <ApplicationTitle>Работоголик ли Вы</ApplicationTitle>
     <BundleIdentifier>Storyline7.Shared</BundleIdentifier>
     <VersionPackage>1.0</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
