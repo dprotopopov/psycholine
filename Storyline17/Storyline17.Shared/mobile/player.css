@@ -435,64 +435,25 @@ canvas.simplebackground
 {
 	margin-top: 3px;
 }
-
-/*
-.item p
+.item.vartext
 {
-   width:100%;
+	overflow-wrap: break-word;
 }
-img.item
+.contentsizer
 {
-   z-index:2;
-   border:none;
-}
-*/
-img.item.missing
-{
-   /*
-   border:dashed 1px #aaa;
-   opacity:0.5;
-   */
-	}
-
-.item.vector
-{
-/*border:dashed 1px #ccc;*/
+	position:absolute;
+	left:-1000px;
+	top:-1000px;
+	overflow-wrap: break-word;
 }
 
-.item.svg
-{
-/*border:dashed 1px #fcc;*/
-}
 
-.item.textlib
-{
-/*border:dashed 3px #f00;*/
-}
-
-.item.imagelib
-{
-/*border:dashed 3px #0f0;*/
-}
 
 .item.textlib p
 {
-	margin: 0 0 2em 0; /*border:dashed 3px #00f;*/
-/* HACK */
-/*-webkit-transform: scale(0.5)!important;*/
+	margin: 0 0 2em 0; 
 }
 
-/*
-.item.dragitem
-{
-	cursor:pointer;
-}
-
-.item.sequenceitem
-{
-	cursor:pointer;
-}
-*/
 .item.clickable
 {
 	cursor:pointer;

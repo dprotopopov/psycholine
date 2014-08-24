@@ -37,6 +37,29 @@
     <DefaultLanguageXAP>ru</DefaultLanguageXAP>
     <AuthorKeyWgtPath />
     <DistributorKeyWgtPath />
+    <Links>
+      <LinkDescription>
+        <Project>73ec2267-571b-4c6e-8cec-25ceeb1b2756</Project>
+        <Path />
+      </LinkDescription>
+      <LinkDescription>
+        <Project>3174d3d1-1c52-4f90-b025-e435f68000f1</Project>
+        <Path>www</Path>
+      </LinkDescription>
+      <LinkDescription>
+        <Project>141c80e9-bc2a-4f4c-96bf-b0627ad16b39</Project>
+        <Path />
+      </LinkDescription>
+      <LinkDescription>
+        <Project>5a1e397e-1783-4bd7-a576-b7718113fa75</Project>
+        <Path>www</Path>
+      </LinkDescription>
+      <LinkDescription>
+        <Project>bb4d032d-0cb6-4eab-b46d-2257e11e5f48</Project>
+        <Path />
+      </LinkDescription>
+    </Links>
+    <ApkDexFilePackageName>app.id_f1a2213793064f3abb81fd001dcf6bcb</ApkDexFilePackageName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -78,10 +101,10 @@
     <Content Include="meta.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="mobile\65ArXvSkNiB_80_DX1200_DY1200_CX600_CY398.png">
+    <Content Include="mobile\65ArXvSkNiB_DX1200_DY1200_CX600_CY398.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="mobile\65ArXvSkNiB_80_DX1200_DY1200_CX600_CY398.swf">
+    <Content Include="mobile\65ArXvSkNiB_DX1200_DY1200_CX600_CY398.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\app_store.png">
@@ -156,6 +179,12 @@
     <Content Include="mobile\slides\6aXsSiYQyjb.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="mobile\slides\6cT1uCrDjMD.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\6cT1uCrDjMD.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="mobile\slides\6EW8hlnWGge.gz">
       <SubType>Content</SubType>
     </Content>
@@ -204,7 +233,7 @@
     <Content Include="storyline17.shared.config.js">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="story_content\65ArXvSkNiB_80_DX1200_DY1200.swf">
+    <Content Include="story_content\65ArXvSkNiB_DX1200_DY1200.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\blank.html">
@@ -244,6 +273,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\slides\6aXsSiYQyjb.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\6cT1uCrDjMD.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\slides\6EW8hlnWGge.swf">

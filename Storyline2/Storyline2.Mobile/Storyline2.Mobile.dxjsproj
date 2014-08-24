@@ -10,12 +10,12 @@
     <Name>Storyline2.Mobile</Name>
     <ScreenOrientation>Landscape</ScreenOrientation>
     <ApplicationTitle>Честность</ApplicationTitle>
-    <BundleIdentifier>Storyline2.Mobile</BundleIdentifier>
-    <VersionPackage>1.1</VersionPackage>
+    <BundleIdentifier>honesty.Mobile</BundleIdentifier>
+    <VersionPackage>2.2.0.1</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
     <KeyApkPath>certificates\android_certificate.p12</KeyApkPath>
     <KeyApkAlias>tmpl</KeyApkAlias>
-    <VersionCode>6</VersionCode>
+    <VersionCode>8</VersionCode>
     <TemplateFileApk />
     <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
     <KeyIpaPath />
@@ -37,7 +37,7 @@
     <UseWebDev>False</UseWebDev>
     <DefaultDevice>win8Phone</DefaultDevice>
     <DeviceOrientation>Landscape</DeviceOrientation>
-    <ApkDexFilePackageName>app.id_39a820e7de5a41b9be4da65ea6751cd0</ApkDexFilePackageName>
+    <ApkDexFilePackageName>app.id_39a820e7de5a41b9be4da65ea6751cd1</ApkDexFilePackageName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

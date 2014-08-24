@@ -37,6 +37,25 @@
     <DefaultLanguageXAP>ru</DefaultLanguageXAP>
     <AuthorKeyWgtPath />
     <DistributorKeyWgtPath />
+    <Links>
+      <LinkDescription>
+        <Project>5a5609eb-5ebb-4ec8-97d0-779e8499f503</Project>
+        <Path />
+      </LinkDescription>
+      <LinkDescription>
+        <Project>992fb2c6-c865-4621-8fea-9b5242adeb54</Project>
+        <Path />
+      </LinkDescription>
+      <LinkDescription>
+        <Project>01e48ef3-30e9-4c3d-ab89-dd322dde6847</Project>
+        <Path>www</Path>
+      </LinkDescription>
+      <LinkDescription>
+        <Project>e1cb7c0a-78b1-4572-afcd-70ed60e88d4f</Project>
+        <Path />
+      </LinkDescription>
+    </Links>
+    <ApkDexFilePackageName>app.id_33f2cfb964454c0883a7b25815892642</ApkDexFilePackageName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -142,6 +161,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\slides\5liMA9cURpf.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5mUaOQASBNX.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\slides\5mUaOQASBNX.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\slides\5pLUIMrLqjQ.gz">
@@ -292,6 +317,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\slides\5liMA9cURpf.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\slides\5mUaOQASBNX.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\slides\5pLUIMrLqjQ.swf">

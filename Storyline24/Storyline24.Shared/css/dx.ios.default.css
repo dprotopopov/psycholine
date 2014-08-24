@@ -1,4 +1,4 @@
-/*! 
+﻿/*! 
 * DevExtreme
 * Version: 14.1.4
 * Build date: Jun 11, 2014
@@ -2522,7 +2522,7 @@
 .dx-selectbox-tag-item-close-button:before
 {
   line-height: 16px;
-  content: '×';
+  content: 'Г—';
   font-size: 19px;
   font-weight: bold;
   color: #fff;

@@ -1,4 +1,4 @@
-
+﻿
 // Browser Sniffing
 var IE =  ((document.all)&&(navigator.appVersion.indexOf("MSIE")!=-1))    ? true : false;
 var IE6 = ((document.all)&&(navigator.appVersion.indexOf("MSIE 6.")!=-1)) ? true : false;

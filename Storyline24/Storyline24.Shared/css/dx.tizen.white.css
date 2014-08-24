@@ -1,4 +1,4 @@
-/*! 
+﻿/*! 
 * DevExtreme
 * Version: 14.1.4
 * Build date: Jun 11, 2014

@@ -12,14 +12,14 @@
     <ScreenOrientation>Landscape</ScreenOrientation>
     <ApplicationTitle>ШКАЛА ДЕПРЕССИИ</ApplicationTitle>
     <BundleIdentifier>Storyline24.Mobile</BundleIdentifier>
-    <VersionPackage>1.0.0.1</VersionPackage>
+    <VersionPackage>1.1.0.2</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
     <DebugSitePortNumber>50000</DebugSitePortNumber>
     <UseWebDev>False</UseWebDev>
     <DefaultDevice>win8Phone</DefaultDevice>
     <DeviceOrientation>Landscape</DeviceOrientation>
     <KeyApkAlias>tmpl</KeyApkAlias>
-    <VersionCode>2</VersionCode>
+    <VersionCode>3</VersionCode>
     <TemplateFileApk />
     <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
     <KeyIpaPath />
@@ -38,6 +38,12 @@
     <AuthorKeyWgtPath />
     <DistributorKeyWgtPath />
     <ApkDexFilePackageName>app.id_57a7c3a10cf54fe8aa2911fedd89183e</ApkDexFilePackageName>
+    <Links>
+      <LinkDescription xmlns="">
+        <Project>1e106dde-4228-4bd3-9437-4c54e7ddbb42</Project>
+        <Path>www</Path>
+      </LinkDescription>
+    </Links>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,6 +78,9 @@
     <Content Include="layouts\Split\SplitLayout.css" />
     <Content Include="layouts\Split\SplitLayout.html" />
     <Content Include="layouts\Split\SplitLayout.js" />
+    <Content Include="main.html">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="storyline24.config.js">
       <SubType>Content</SubType>
     </Content>

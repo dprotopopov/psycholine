@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="906269c6-7b90-4329-85ff-2b7718ee7f05" Version="1.0.0.0" Publisher="CN=admin" />
+  <Properties>
+    <DisplayName>Storyline17.Win8</DisplayName>
+    <PublisherDisplayName>admin</PublisherDisplayName>
+    <Logo>images\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="Storyline17.Win8" StartPage="index.html">
+      <VisualElements DisplayName="Любовь или легкое увлечение" Logo="images\Square150x150Logo.png" SmallLogo="images\Square30x30Logo.png" Description="Если Вы - девушка или молодая женщина, которой порой очень сложно разобраться в своих чувствах к другому человеку (молодому человеку), то будем надеяться, что этот тест, разработанный профессором Ковалевым, в какой-то степени поможет вам разобраться в своих чувствах." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="logoOnly" WideLogo="images\Wide310x150Logo.png" />
+        <SplashScreen Image="images\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

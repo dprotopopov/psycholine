@@ -1,0 +1,2 @@
+﻿(Get-Content mobile\player_compiled.js) | ForEach-Object { $_ -replace 'var buildDate="20140718 09:21";', 'var buildDate="20140718 09:21 (patched)";' } | Set-Content mobile\player_compiled.js
+(Get-Content mobile\player_compiled.js) | ForEach-Object { $_ -replace '=a.getElementsByTagName\("g"\);', '=(function(o){var a=[];for(var i=o.length>>>0;i--;){a[i]=o[i];}return a;})(a.getElementsByTagName("g"));' } | Set-Content mobile\player_compiled.js

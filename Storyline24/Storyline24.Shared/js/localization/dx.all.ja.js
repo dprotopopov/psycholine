@@ -1,4 +1,4 @@
-/*! 
+﻿/*! 
 * DevExtreme
 * Version: 14.1.4
 * Build date: Jun 11, 2014
@@ -9,35 +9,35 @@
 
 Globalize.addCultureInfo("ja", {
     "messages": {
-        "Yes": "はい",
-        "No": "いいえ",
-        "Cancel": "キャンセル",
-        "Clear": "クリア",
-        "Done": "完了",
-        "Loading": "読み込み中…",
-        "Select": "選択…",
-        "Search": "検索",
+        "Yes": "гЃЇгЃ„",
+        "No": "гЃ„гЃ„гЃ€",
+        "Cancel": "г‚­гѓЈгѓіг‚»гѓ«",
+        "Clear": "г‚ЇгѓЄг‚ў",
+        "Done": "е®Њдє†",
+        "Loading": "иЄ­гЃїиѕјгЃїдё­вЂ¦",
+        "Select": "йЃёжЉћвЂ¦",
+        "Search": "ж¤њзґў",
 
-        "dxCollectionContainerWidget-noDataText": "表示するデータはありません。",
+        "dxCollectionContainerWidget-noDataText": "иЎЁз¤єгЃ™г‚‹гѓ‡гѓјг‚їгЃЇгЃ‚г‚ЉгЃѕгЃ›г‚“гЂ‚",
 
-        "dxList-pullingDownText": "引っ張って更新…",
-        "dxList-pulledDownText": "指を離して更新…",
-        "dxList-refreshingText": "更新中…",
-        "dxList-pageLoadingText": "読み込み中",
-        "dxList-nextButtonText": "もっと",
-        "dxListEditDecorator-delete": "削除する",
-        "dxListEditDecorator-more": "もっと",
+        "dxList-pullingDownText": "еј•гЃЈејµгЃЈгЃ¦ж›ґж–°вЂ¦",
+        "dxList-pulledDownText": "жЊ‡г‚’й›ўгЃ—гЃ¦ж›ґж–°вЂ¦",
+        "dxList-refreshingText": "ж›ґж–°дё­вЂ¦",
+        "dxList-pageLoadingText": "иЄ­гЃїиѕјгЃїдё­",
+        "dxList-nextButtonText": "г‚‚гЃЈгЃЁ",
+        "dxListEditDecorator-delete": "е‰Љй™¤гЃ™г‚‹",
+        "dxListEditDecorator-more": "г‚‚гЃЈгЃЁ",
 
-        "dxScrollView-pullingDownText": "引っ張って更新…",
-        "dxScrollView-pulledDownText": "指を離して更新…",
-        "dxScrollView-refreshingText": "更新中…",
-        "dxScrollView-reachBottomText": "読み込み中",
+        "dxScrollView-pullingDownText": "еј•гЃЈејµгЃЈгЃ¦ж›ґж–°вЂ¦",
+        "dxScrollView-pulledDownText": "жЊ‡г‚’й›ўгЃ—гЃ¦ж›ґж–°вЂ¦",
+        "dxScrollView-refreshingText": "ж›ґж–°дё­вЂ¦",
+        "dxScrollView-reachBottomText": "иЄ­гЃїиѕјгЃїдё­",
 
-        "dxSwitch-onText": "オン",
-        "dxSwitch-offText": "オフ",
+        "dxSwitch-onText": "г‚Єгѓі",
+        "dxSwitch-offText": "г‚Єгѓ•",
 
-        "dxDateBox-simulatedDataPickerTitleTime": "時間を選択",
-        "dxDateBox-simulatedDataPickerTitleDate": "選択した日付",
-        "dxDateBox-simulatedDataPickerTitleDateTime": "日付と時刻を選択"
+        "dxDateBox-simulatedDataPickerTitleTime": "ж™‚й–“г‚’йЃёжЉћ",
+        "dxDateBox-simulatedDataPickerTitleDate": "йЃёжЉћгЃ—гЃџж—Ґд»",
+        "dxDateBox-simulatedDataPickerTitleDateTime": "ж—Ґд»гЃЁж™‚е€»г‚’йЃёжЉћ"
     }
 });

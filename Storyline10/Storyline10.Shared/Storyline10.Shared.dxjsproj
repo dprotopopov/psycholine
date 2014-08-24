@@ -90,6 +90,12 @@
     <Content Include="mobile\5jLjyCY5CT9_80_DX624_DY624_CX113_CY312.swf">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="mobile\5mogRbDM3w2_80_DX404_DY404_CX70_CY202.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\5mogRbDM3w2_80_DX404_DY404_CX70_CY202.swf">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="mobile\62e3bOjZ32i_80_DX564_DY564_CX76_CY282.png">
       <SubType>Content</SubType>
     </Content>
@@ -112,6 +118,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\6E246fOOE0Y_80_DX612_DY612_CX106_CY306.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\6eZ2P0zEEyC_80_DX404_DY404_CX59_CY202.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\6eZ2P0zEEyC_80_DX404_DY404_CX59_CY202.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\6OjwzgMJcSz_80_DX612_DY612_CX85_CY306.png">
@@ -468,6 +480,9 @@
     <Content Include="story_content\5jLjyCY5CT9_80_DX624_DY624.swf">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="story_content\5mogRbDM3w2_80_DX404_DY404.swf">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="story_content\62e3bOjZ32i_80_DX564_DY564.swf">
       <SubType>Content</SubType>
     </Content>
@@ -478,6 +493,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\6E246fOOE0Y_80_DX612_DY612.swf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="story_content\6eZ2P0zEEyC_80_DX404_DY404.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\6OjwzgMJcSz_80_DX612_DY612.swf">

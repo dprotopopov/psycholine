@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>7f011517-25a5-4a65-8766-d3e99ca96a73</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>ru-RU</DefaultLanguage>
+    <PackageCertificateKeyFile>Storyline24.Win8_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>70B9DD29E2D46856265D01451E5FD1799963B631</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="..\Storyline24.Shared\css\dx.android.holo-dark.css">
+      <Link>css\dx.android.holo-dark.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.android.holo-light.css">
+      <Link>css\dx.android.holo-light.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.common.css">
+      <Link>css\dx.common.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.dark.css">
+      <Link>css\dx.dark.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.ios.default.css">
+      <Link>css\dx.ios.default.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.ios7.default.css">
+      <Link>css\dx.ios7.default.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.light.css">
+      <Link>css\dx.light.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.spa.css">
+      <Link>css\dx.spa.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.tizen.black.css">
+      <Link>css\dx.tizen.black.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.tizen.white.css">
+      <Link>css\dx.tizen.white.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.win8.black.css">
+      <Link>css\dx.win8.black.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\css\dx.win8.white.css">
+      <Link>css\dx.win8.white.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\data\db.js">
+      <Link>data\db.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\ioslaunch.html">
+      <Link>ioslaunch.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\dx.all.debug.js">
+      <Link>js\dx.all.debug.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\dx.all.js">
+      <Link>js\dx.all.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\globalize.min.js">
+      <Link>js\globalize.min.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\jquery-1.11.1.min.js">
+      <Link>js\jquery-1.11.1.min.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\jquery-2.1.1.min.js">
+      <Link>js\jquery-2.1.1.min.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\knockout-3.1.0.js">
+      <Link>js\knockout-3.1.0.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\localization\dx.all.de.js">
+      <Link>js\localization\dx.all.de.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\localization\dx.all.ja.js">
+      <Link>js\localization\dx.all.ja.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\js\localization\dx.all.ru.js">
+      <Link>js\localization\dx.all.ru.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\meta.xml">
+      <Link>meta.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\app_store.png">
+      <Link>mobile\app_store.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\controls.png">
+      <Link>mobile\controls.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\data.gz">
+      <Link>mobile\data.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\data.js">
+      <Link>mobile\data.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\fonts.js">
+      <Link>mobile\fonts.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\icon_loading.gif">
+      <Link>mobile\icon_loading.gif</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\linen_background.jpg">
+      <Link>mobile\linen_background.jpg</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\masks.js">
+      <Link>mobile\masks.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\mobileinstall.html">
+      <Link>mobile\mobileinstall.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\mobile_icon.png">
+      <Link>mobile\mobile_icon.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\player.css">
+      <Link>mobile\player.css</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\player_compiled.js">
+      <Link>mobile\player_compiled.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5aUnXLnaWjK.gz">
+      <Link>mobile\slides\5aUnXLnaWjK.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5aUnXLnaWjK.js">
+      <Link>mobile\slides\5aUnXLnaWjK.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5dtHSGdVWxw.gz">
+      <Link>mobile\slides\5dtHSGdVWxw.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5dtHSGdVWxw.js">
+      <Link>mobile\slides\5dtHSGdVWxw.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5vloBoou6AT.gz">
+      <Link>mobile\slides\5vloBoou6AT.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5vloBoou6AT.js">
+      <Link>mobile\slides\5vloBoou6AT.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5vtO6TEP4Ab.gz">
+      <Link>mobile\slides\5vtO6TEP4Ab.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5vtO6TEP4Ab.js">
+      <Link>mobile\slides\5vtO6TEP4Ab.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5xqzQkfA6PT.gz">
+      <Link>mobile\slides\5xqzQkfA6PT.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\5xqzQkfA6PT.js">
+      <Link>mobile\slides\5xqzQkfA6PT.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\61TPMIS9zKW.gz">
+      <Link>mobile\slides\61TPMIS9zKW.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\61TPMIS9zKW.js">
+      <Link>mobile\slides\61TPMIS9zKW.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\66nRcfTydLF.gz">
+      <Link>mobile\slides\66nRcfTydLF.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\66nRcfTydLF.js">
+      <Link>mobile\slides\66nRcfTydLF.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\672qKATAUJY.gz">
+      <Link>mobile\slides\672qKATAUJY.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\672qKATAUJY.js">
+      <Link>mobile\slides\672qKATAUJY.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\67sLxrImnXe.gz">
+      <Link>mobile\slides\67sLxrImnXe.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\67sLxrImnXe.js">
+      <Link>mobile\slides\67sLxrImnXe.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\69HAglOrzhj.gz">
+      <Link>mobile\slides\69HAglOrzhj.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\69HAglOrzhj.js">
+      <Link>mobile\slides\69HAglOrzhj.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6ADzTACfUc0.gz">
+      <Link>mobile\slides\6ADzTACfUc0.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6ADzTACfUc0.js">
+      <Link>mobile\slides\6ADzTACfUc0.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6fh69fhwTdw.gz">
+      <Link>mobile\slides\6fh69fhwTdw.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6fh69fhwTdw.js">
+      <Link>mobile\slides\6fh69fhwTdw.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6HEnttDf86L.gz">
+      <Link>mobile\slides\6HEnttDf86L.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6HEnttDf86L.js">
+      <Link>mobile\slides\6HEnttDf86L.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6HQjIDGXtZR.gz">
+      <Link>mobile\slides\6HQjIDGXtZR.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6HQjIDGXtZR.js">
+      <Link>mobile\slides\6HQjIDGXtZR.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6jbhMsS508D.gz">
+      <Link>mobile\slides\6jbhMsS508D.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6jbhMsS508D.js">
+      <Link>mobile\slides\6jbhMsS508D.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6jIzeuRB4Tk.gz">
+      <Link>mobile\slides\6jIzeuRB4Tk.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6jIzeuRB4Tk.js">
+      <Link>mobile\slides\6jIzeuRB4Tk.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6KzWAOPI7Do.gz">
+      <Link>mobile\slides\6KzWAOPI7Do.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6KzWAOPI7Do.js">
+      <Link>mobile\slides\6KzWAOPI7Do.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6mnqcqrHzZw.gz">
+      <Link>mobile\slides\6mnqcqrHzZw.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6mnqcqrHzZw.js">
+      <Link>mobile\slides\6mnqcqrHzZw.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6qCDx5bigyz.gz">
+      <Link>mobile\slides\6qCDx5bigyz.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6qCDx5bigyz.js">
+      <Link>mobile\slides\6qCDx5bigyz.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6qthRmjbrw8.gz">
+      <Link>mobile\slides\6qthRmjbrw8.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6qthRmjbrw8.js">
+      <Link>mobile\slides\6qthRmjbrw8.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6TANs5qFkvk.gz">
+      <Link>mobile\slides\6TANs5qFkvk.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6TANs5qFkvk.js">
+      <Link>mobile\slides\6TANs5qFkvk.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6ZpQcyiV1DS.gz">
+      <Link>mobile\slides\6ZpQcyiV1DS.gz</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\slides\6ZpQcyiV1DS.js">
+      <Link>mobile\slides\6ZpQcyiV1DS.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\spinner.png">
+      <Link>mobile\spinner.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\storyline_compiled.js">
+      <Link>mobile\storyline_compiled.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\mobile\wait.gif">
+      <Link>mobile\wait.gif</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.ic_launcher_36_36.png">
+      <Link>Resources\PackageIcons.Android.ic_launcher_36_36.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.ic_launcher_48_48.png">
+      <Link>Resources\PackageIcons.Android.ic_launcher_48_48.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.ic_launcher_72_72.png">
+      <Link>Resources\PackageIcons.Android.ic_launcher_72_72.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.ic_launcher_96_96.png">
+      <Link>Resources\PackageIcons.Android.ic_launcher_96_96.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_1280_720.png">
+      <Link>Resources\PackageIcons.Android.splash_1280_720.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_200_320.png">
+      <Link>Resources\PackageIcons.Android.splash_200_320.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_320_200.png">
+      <Link>Resources\PackageIcons.Android.splash_320_200.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_320_480.png">
+      <Link>Resources\PackageIcons.Android.splash_320_480.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_480_320.png">
+      <Link>Resources\PackageIcons.Android.splash_480_320.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_480_800.png">
+      <Link>Resources\PackageIcons.Android.splash_480_800.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_720_1280.png">
+      <Link>Resources\PackageIcons.Android.splash_720_1280.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Android.splash_800_480.png">
+      <Link>Resources\PackageIcons.Android.splash_800_480.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default%402x~iphone.png">
+      <Link>Resources\PackageIcons.iOS.Default%402x~iphone.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default-568h%402x.png">
+      <Link>Resources\PackageIcons.iOS.Default-568h%402x.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default-Landscape%402x~ipad.png">
+      <Link>Resources\PackageIcons.iOS.Default-Landscape%402x~ipad.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default-Landscape~ipad.png">
+      <Link>Resources\PackageIcons.iOS.Default-Landscape~ipad.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default-Portrait%402x~ipad.png">
+      <Link>Resources\PackageIcons.iOS.Default-Portrait%402x~ipad.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default-Portrait~ipad.png">
+      <Link>Resources\PackageIcons.iOS.Default-Portrait~ipad.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.Default~iphone.png">
+      <Link>Resources\PackageIcons.iOS.Default~iphone.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon%402x.png">
+      <Link>Resources\PackageIcons.iOS.icon%402x.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon-120.png">
+      <Link>Resources\PackageIcons.iOS.icon-120.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon-152.png">
+      <Link>Resources\PackageIcons.iOS.icon-152.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon-72%402x.png">
+      <Link>Resources\PackageIcons.iOS.icon-72%402x.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon-72.png">
+      <Link>Resources\PackageIcons.iOS.icon-72.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon-76.png">
+      <Link>Resources\PackageIcons.iOS.icon-76.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.icon.png">
+      <Link>Resources\PackageIcons.iOS.icon.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.iOS.iTunesArtwork.png">
+      <Link>Resources\PackageIcons.iOS.iTunesArtwork.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.Tizen.icon_117_117.png">
+      <Link>Resources\PackageIcons.Tizen.icon_117_117.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.WP.ApplicationIcon_99_99.png">
+      <Link>Resources\PackageIcons.WP.ApplicationIcon_99_99.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.WP.Background.png_144_144.png">
+      <Link>Resources\PackageIcons.WP.Background.png_144_144.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg">
+      <Link>Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.WP.TileMedium.png">
+      <Link>Resources\PackageIcons.WP.TileMedium.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\Resources\PackageIcons.WP.TileSmall.png">
+      <Link>Resources\PackageIcons.WP.TileSmall.png</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story.html">
+      <Link>story.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story.swf">
+      <Link>story.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\storyline24.shared.config.js">
+      <Link>storyline24.shared.config.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\blank.html">
+      <Link>story_content\blank.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\data.swf">
+      <Link>story_content\data.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\fonts.swf">
+      <Link>story_content\fonts.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\fonts.xml">
+      <Link>story_content\fonts.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\frame.js">
+      <Link>story_content\frame.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\frame.swf">
+      <Link>story_content\frame.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\frame.xml">
+      <Link>story_content\frame.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\5aUnXLnaWjK.swf">
+      <Link>story_content\slides\5aUnXLnaWjK.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\5dtHSGdVWxw.swf">
+      <Link>story_content\slides\5dtHSGdVWxw.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\5vloBoou6AT.swf">
+      <Link>story_content\slides\5vloBoou6AT.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\5vtO6TEP4Ab.swf">
+      <Link>story_content\slides\5vtO6TEP4Ab.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\5xqzQkfA6PT.swf">
+      <Link>story_content\slides\5xqzQkfA6PT.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\61TPMIS9zKW.swf">
+      <Link>story_content\slides\61TPMIS9zKW.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\66nRcfTydLF.swf">
+      <Link>story_content\slides\66nRcfTydLF.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\672qKATAUJY.swf">
+      <Link>story_content\slides\672qKATAUJY.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\67sLxrImnXe.swf">
+      <Link>story_content\slides\67sLxrImnXe.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\69HAglOrzhj.swf">
+      <Link>story_content\slides\69HAglOrzhj.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6ADzTACfUc0.swf">
+      <Link>story_content\slides\6ADzTACfUc0.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6fh69fhwTdw.swf">
+      <Link>story_content\slides\6fh69fhwTdw.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6HEnttDf86L.swf">
+      <Link>story_content\slides\6HEnttDf86L.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6HQjIDGXtZR.swf">
+      <Link>story_content\slides\6HQjIDGXtZR.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6jbhMsS508D.swf">
+      <Link>story_content\slides\6jbhMsS508D.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6jIzeuRB4Tk.swf">
+      <Link>story_content\slides\6jIzeuRB4Tk.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6KzWAOPI7Do.swf">
+      <Link>story_content\slides\6KzWAOPI7Do.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6mnqcqrHzZw.swf">
+      <Link>story_content\slides\6mnqcqrHzZw.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6qCDx5bigyz.swf">
+      <Link>story_content\slides\6qCDx5bigyz.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6qthRmjbrw8.swf">
+      <Link>story_content\slides\6qthRmjbrw8.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6TANs5qFkvk.swf">
+      <Link>story_content\slides\6TANs5qFkvk.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\slides\6ZpQcyiV1DS.swf">
+      <Link>story_content\slides\6ZpQcyiV1DS.swf</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\story.js">
+      <Link>story_content\story.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\thumbnail.jpg">
+      <Link>story_content\thumbnail.jpg</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_content\user.js">
+      <Link>story_content\user.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_html5.html">
+      <Link>story_html5.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\story_unsupported.html">
+      <Link>story_unsupported.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\views\about.html">
+      <Link>views\about.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Storyline24.Shared\views\blank.html">
+      <Link>views\blank.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\SplashScreen.scale-100.png" />
+    <Content Include="images\SplashScreen.scale-140.png" />
+    <Content Include="images\SplashScreen.scale-180.png" />
+    <Content Include="images\Square150x150Logo.scale-100.png" />
+    <Content Include="images\Square150x150Logo.scale-140.png" />
+    <Content Include="images\Square150x150Logo.scale-180.png" />
+    <Content Include="images\Square150x150Logo.scale-80.png" />
+    <Content Include="images\Square30x30Logo.scale-100.png" />
+    <Content Include="images\Square30x30Logo.scale-140.png" />
+    <Content Include="images\Square30x30Logo.scale-180.png" />
+    <Content Include="images\Square30x30Logo.scale-80.png" />
+    <Content Include="images\Square30x30Logo.targetsize-16.png" />
+    <Content Include="images\Square30x30Logo.targetsize-256.png" />
+    <Content Include="images\Square30x30Logo.targetsize-32.png" />
+    <Content Include="images\Square30x30Logo.targetsize-48.png" />
+    <None Include="Win8_TemporaryKey.pfx" />
+    <Content Include="images\StoreLogo.scale-100.png" />
+    <Content Include="images\StoreLogo.scale-140.png" />
+    <Content Include="images\StoreLogo.scale-180.png" />
+    <Content Include="images\Wide310x150Logo.scale-100.png" />
+    <Content Include="images\Wide310x150Logo.scale-140.png" />
+    <Content Include="images\Wide310x150Logo.scale-180.png" />
+    <Content Include="images\Wide310x150Logo.scale-80.png" />
+    <Content Include="layouts\Empty\EmptyLayout.css" />
+    <Content Include="layouts\Empty\EmptyLayout.html" />
+    <Content Include="layouts\Empty\EmptyLayout.js" />
+    <Content Include="layouts\Split\SplitLayout.css" />
+    <Content Include="layouts\Split\SplitLayout.html" />
+    <Content Include="layouts\Split\SplitLayout.js" />
+    <Content Include="layouts\Navbar\NavbarLayout.css" />
+    <Content Include="layouts\Navbar\NavbarLayout.html" />
+    <Content Include="layouts\Navbar\NavbarLayout.js" />
+    <Content Include="index.js" />
+    <Content Include="index.html" />
+    <Content Include="index.css" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="storyline24.config.js" />
+    <None Include="Storyline24.Win8_StoreKey.pfx" />
+    <Content Include="views\home.css" />
+    <Content Include="views\home.dxview" />
+    <Content Include="views\home.js" />
+    <Content Include="views\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="mobile\slides\" />
+    <Folder Include="Resources\" />
+    <Folder Include="story_content\slides\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

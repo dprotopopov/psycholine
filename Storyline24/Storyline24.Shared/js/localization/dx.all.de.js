@@ -1,4 +1,4 @@
-/*! 
+﻿/*! 
 * DevExtreme
 * Version: 14.1.4
 * Build date: Jun 11, 2014
@@ -12,16 +12,16 @@ Globalize.addCultureInfo("de", {
         "Yes": "Ja",
         "No": "Nein",
         "Cancel": "Abbrechen",
-        "Clear": "Löschen",
+        "Clear": "LГ¶schen",
         "Done": "Fertig",
         "Loading": "Laden...",
-        "Select": "Auswählen...",
+        "Select": "AuswГ¤hlen...",
         "Search": "Suchen",
-        "Back": "Zurück",
+        "Back": "ZurГјck",
 
         "dxLookup-searchPlaceholder": "Minimale Anzahl Zeichen: {0}",
 
-        "dxCollectionContainerWidget-noDataText": "Keine Daten verfügbar",
+        "dxCollectionContainerWidget-noDataText": "Keine Daten verfГјgbar",
 
         "dxList-pullingDownText": "Zum Aktualisieren nach unten ziehen",
         "dxList-pulledDownText": "Zum Aktualisieren loslassen",
@@ -39,8 +39,8 @@ Globalize.addCultureInfo("de", {
         "dxSwitch-onText": "EIN",
         "dxSwitch-offText": "AUS",
 
-        "dxDateBox-simulatedDataPickerTitleTime": "Wählen zeit",
-        "dxDateBox-simulatedDataPickerTitleDate": "Wählen datum",
-        "dxDateBox-simulatedDataPickerTitleDateTime": "Wählen datum und zeit"
+        "dxDateBox-simulatedDataPickerTitleTime": "WГ¤hlen zeit",
+        "dxDateBox-simulatedDataPickerTitleDate": "WГ¤hlen datum",
+        "dxDateBox-simulatedDataPickerTitleDateTime": "WГ¤hlen datum und zeit"
     }
 });

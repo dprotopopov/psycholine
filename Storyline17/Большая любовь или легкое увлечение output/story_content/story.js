@@ -1,4 +1,4 @@
-
+﻿
 // Browser Sniffing
 var IE =  ((document.all)&&(navigator.appVersion.indexOf("MSIE")!=-1))    ? true : false;
 var IE6 = ((document.all)&&(navigator.appVersion.indexOf("MSIE 6.")!=-1)) ? true : false;
@@ -111,11 +111,46 @@ function WriteSwfObject(strSwfFile, nWidth, nHeight, strScale, strAlign, strQual
 ////////////////////////////////////////////////////////////////////////////////
 // Flash Comm
 ////////////////////////////////////////////////////////////////////////////////
-
+var g_arrCommands = [];
 function onBWEvent(command, args) 
 {
-	args = unescape(args);
-	command = String(command);
+	if (command == "BW_UpdateWebObjects" ||
+		command == "BW_OpenWebObject" ||
+		command == "BW_CloseWebObject" ||
+		command == "BW_MailTo" ||
+		command == "BW_OpenUrl" ||
+		command == "BW_CloseAllWebObjects" ||
+		command == "BW_RestoreWebObjects" ||
+		command == "BW_ExecuteJavascript" ||
+		command == "BW_OpenSwf" ||
+		command == "BW_ResizeSwf" ||
+		command == "BW_OpenVideo" ||
+		command == "BW_RestoreFocus" ||
+		command == "BW_TincanConfigError")
+	{
+		g_arrCommands.unshift({"command": command, "args": args});
+		onBWEventInterval();
+	}
+	else
+	{
+		g_arrCommands.push({"command": command, "args": args});
+		
+		setTimeout(function () 
+		{
+			if (g_arrCommands.length > 0) 
+			{
+				onBWEventInterval();
+			}
+		}, 0);	
+	}
+}
+
+function onBWEventInterval()
+{
+	var objTemp = g_arrCommands.shift();
+		
+	args = unescape(objTemp.args);
+	command = String(objTemp.command);
 
 	var arrArgs = args.split(g_strDelim);
 	
@@ -519,6 +554,11 @@ function DoOnClose(evt)
 	if (!g_bCloseExecuted)
 	{
 		g_bCloseExecuted = true;
+		
+		while (g_arrCommands.length > 0)
+		{
+			onBWEventInterval();
+		}			
 
 		if (g_bLMS)
 		{

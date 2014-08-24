@@ -54,6 +54,12 @@
     <Content Include="meta.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="mobile\5cowWkYlaSb_80_DX376_DY376_CX188_CY188.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mobile\5cowWkYlaSb_80_DX376_DY376_CX188_CY188.swf">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="mobile\app_store.png">
       <SubType>Content</SubType>
     </Content>
@@ -88,9 +94,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\player_compiled.js">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="mobile\Slide6ULBHLZNefx.jpg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="mobile\slides\5fjvhI66KqT.gz">
@@ -327,6 +330,9 @@
     <Content Include="storyline2.shared.config.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="story_content\5cowWkYlaSb_80_DX376_DY376.swf">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="story_content\blank.html">
       <SubType>Content</SubType>
     </Content>
@@ -346,9 +352,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\frame.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="story_content\Slide6ULBHLZNefx.swf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="story_content\slides\5fjvhI66KqT.swf">

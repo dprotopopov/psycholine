@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application3.Shared", "Application3.Shared\Application3.Shared.dxjsproj", "{EC205E11-DD37-4EF9-BD83-62464D40EE91}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application3.Mobile", "Application3.Mobile\Application3.Mobile.dxjsproj", "{74645BB3-8E73-49DA-872D-C3656610EBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C809D1F-D207-4BB2-99D1-C68D4C69C4A9}"
+	ProjectSection(SolutionItems) = preProject
+		Измерение ситуативной и личностной тревожности.doc = Измерение ситуативной и личностной тревожности.doc
+		Измерение ситуативной и личностной тревожности.story = Измерение ситуативной и личностной тревожности.story
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC205E11-DD37-4EF9-BD83-62464D40EE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC205E11-DD37-4EF9-BD83-62464D40EE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC205E11-DD37-4EF9-BD83-62464D40EE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC205E11-DD37-4EF9-BD83-62464D40EE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74645BB3-8E73-49DA-872D-C3656610EBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74645BB3-8E73-49DA-872D-C3656610EBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74645BB3-8E73-49DA-872D-C3656610EBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74645BB3-8E73-49DA-872D-C3656610EBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

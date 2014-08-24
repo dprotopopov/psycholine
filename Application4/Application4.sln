@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application4.Shared", "Application4.Shared\Application4.Shared.dxjsproj", "{58A84A59-B95C-4045-AF32-DBEFF47D85A0}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application4.Mobile", "Application4.Mobile\Application4.Mobile.dxjsproj", "{33D5B280-D384-43CA-8D35-0B9F6A907FD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{795D8BFB-E6B9-4A4A-9027-8C516F9E1635}"
+	ProjectSection(SolutionItems) = preProject
+		Определение ведущей сенсорной системы человека.doc = Определение ведущей сенсорной системы человека.doc
+		Определение ведущей сенсорной системы человека.story = Определение ведущей сенсорной системы человека.story
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58A84A59-B95C-4045-AF32-DBEFF47D85A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A84A59-B95C-4045-AF32-DBEFF47D85A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A84A59-B95C-4045-AF32-DBEFF47D85A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A84A59-B95C-4045-AF32-DBEFF47D85A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D5B280-D384-43CA-8D35-0B9F6A907FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D5B280-D384-43CA-8D35-0B9F6A907FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D5B280-D384-43CA-8D35-0B9F6A907FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D5B280-D384-43CA-8D35-0B9F6A907FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

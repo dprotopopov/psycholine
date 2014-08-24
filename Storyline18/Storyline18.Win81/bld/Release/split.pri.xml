@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="64189RBADESIGNLLC.45272C57033D2" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>80, 100</Scale>
+			<TargetSize>48, 32, 256, 16</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="index.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/index.css">
+				<Candidate type="Path">
+					<Value>index.css</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="index.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/index.html">
+				<Candidate type="Path">
+					<Value>index.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="index.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/index.js">
+				<Candidate type="Path">
+					<Value>index.js</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ioslaunch.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/ioslaunch.html">
+				<Candidate type="Path">
+					<Value>ioslaunch.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="meta.xml" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/meta.xml">
+				<Candidate type="Path">
+					<Value>meta.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="story.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story.html">
+				<Candidate type="Path">
+					<Value>story.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="story.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story.swf">
+				<Candidate type="Path">
+					<Value>story.swf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="storyline18.config.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/storyline18.config.js">
+				<Candidate type="Path">
+					<Value>storyline18.config.js</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="storyline18.shared.config.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/storyline18.shared.config.js">
+				<Candidate type="Path">
+					<Value>storyline18.shared.config.js</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="story_html5.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_html5.html">
+				<Candidate type="Path">
+					<Value>story_html5.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="story_unsupported.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_unsupported.html">
+				<Candidate type="Path">
+					<Value>story_unsupported.html</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="css">
+				<NamedResource name="dx.android.holo-dark.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.android.holo-dark.css">
+					<Candidate type="Path">
+						<Value>css\dx.android.holo-dark.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.android.holo-light.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.android.holo-light.css">
+					<Candidate type="Path">
+						<Value>css\dx.android.holo-light.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.common.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.common.css">
+					<Candidate type="Path">
+						<Value>css\dx.common.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.dark.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.dark.css">
+					<Candidate type="Path">
+						<Value>css\dx.dark.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.ios.default.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.ios.default.css">
+					<Candidate type="Path">
+						<Value>css\dx.ios.default.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.ios7.default.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.ios7.default.css">
+					<Candidate type="Path">
+						<Value>css\dx.ios7.default.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.light.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.light.css">
+					<Candidate type="Path">
+						<Value>css\dx.light.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.spa.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.spa.css">
+					<Candidate type="Path">
+						<Value>css\dx.spa.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.tizen.black.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.tizen.black.css">
+					<Candidate type="Path">
+						<Value>css\dx.tizen.black.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.tizen.white.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.tizen.white.css">
+					<Candidate type="Path">
+						<Value>css\dx.tizen.white.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.win8.black.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.win8.black.css">
+					<Candidate type="Path">
+						<Value>css\dx.win8.black.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.win8.white.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/css/dx.win8.white.css">
+					<Candidate type="Path">
+						<Value>css\dx.win8.white.css</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="data">
+				<NamedResource name="db.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/data/db.js">
+					<Candidate type="Path">
+						<Value>data\db.js</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="logo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/logo.png">
+					<Candidate type="Path">
+						<Value>images\logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="smalllogo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/smalllogo.png">
+					<Candidate type="Path">
+						<Value>images\smalllogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/Square30x30Logo.png">
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Square310x310Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square310x310Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/Square70x70Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Square70x70Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square70x70Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="js">
+				<NamedResource name="dx.all.debug.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/dx.all.debug.js">
+					<Candidate type="Path">
+						<Value>js\dx.all.debug.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dx.all.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/dx.all.js">
+					<Candidate type="Path">
+						<Value>js\dx.all.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="globalize.min.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/globalize.min.js">
+					<Candidate type="Path">
+						<Value>js\globalize.min.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jquery-1.11.1.min.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/jquery-1.11.1.min.js">
+					<Candidate type="Path">
+						<Value>js\jquery-1.11.1.min.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jquery-2.1.1.min.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/jquery-2.1.1.min.js">
+					<Candidate type="Path">
+						<Value>js\jquery-2.1.1.min.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="knockout-3.1.0.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/knockout-3.1.0.js">
+					<Candidate type="Path">
+						<Value>js\knockout-3.1.0.js</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="localization">
+					<NamedResource name="dx.all.de.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/localization/dx.all.de.js">
+						<Candidate type="Path">
+							<Value>js\localization\dx.all.de.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="dx.all.ja.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/localization/dx.all.ja.js">
+						<Candidate type="Path">
+							<Value>js\localization\dx.all.ja.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="dx.all.ru.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/js/localization/dx.all.ru.js">
+						<Candidate type="Path">
+							<Value>js\localization\dx.all.ru.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="layouts">
+				<ResourceMapSubtree name="Empty">
+					<NamedResource name="EmptyLayout.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Empty/EmptyLayout.css">
+						<Candidate type="Path">
+							<Value>layouts\Empty\EmptyLayout.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EmptyLayout.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Empty/EmptyLayout.html">
+						<Candidate type="Path">
+							<Value>layouts\Empty\EmptyLayout.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EmptyLayout.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Empty/EmptyLayout.js">
+						<Candidate type="Path">
+							<Value>layouts\Empty\EmptyLayout.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Navbar">
+					<NamedResource name="NavbarLayout.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Navbar/NavbarLayout.css">
+						<Candidate type="Path">
+							<Value>layouts\Navbar\NavbarLayout.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NavbarLayout.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Navbar/NavbarLayout.html">
+						<Candidate type="Path">
+							<Value>layouts\Navbar\NavbarLayout.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NavbarLayout.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Navbar/NavbarLayout.js">
+						<Candidate type="Path">
+							<Value>layouts\Navbar\NavbarLayout.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Split">
+					<NamedResource name="SplitLayout.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Split/SplitLayout.css">
+						<Candidate type="Path">
+							<Value>layouts\Split\SplitLayout.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SplitLayout.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Split/SplitLayout.html">
+						<Candidate type="Path">
+							<Value>layouts\Split\SplitLayout.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SplitLayout.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/layouts/Split/SplitLayout.js">
+						<Candidate type="Path">
+							<Value>layouts\Split\SplitLayout.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="mobile">
+				<NamedResource name="5VBqRIvb4ms_80_RW_DX512_DY512_CX256_CY256.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/5VBqRIvb4ms_80_RW_DX512_DY512_CX256_CY256.png">
+					<Candidate type="Path">
+						<Value>mobile\5VBqRIvb4ms_80_RW_DX512_DY512_CX256_CY256.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="5VBqRIvb4ms_80_RW_DX512_DY512_CX256_CY256.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/5VBqRIvb4ms_80_RW_DX512_DY512_CX256_CY256.swf">
+					<Candidate type="Path">
+						<Value>mobile\5VBqRIvb4ms_80_RW_DX512_DY512_CX256_CY256.swf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="app_store.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/app_store.png">
+					<Candidate type="Path">
+						<Value>mobile\app_store.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="controls.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/controls.png">
+					<Candidate type="Path">
+						<Value>mobile\controls.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="data.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/data.gz">
+					<Candidate type="Path">
+						<Value>mobile\data.gz</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="data.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/data.js">
+					<Candidate type="Path">
+						<Value>mobile\data.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fonts.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/fonts.js">
+					<Candidate type="Path">
+						<Value>mobile\fonts.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_loading.gif" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/icon_loading.gif">
+					<Candidate type="Path">
+						<Value>mobile\icon_loading.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="linen_background.jpg" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/linen_background.jpg">
+					<Candidate type="Path">
+						<Value>mobile\linen_background.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="masks.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/masks.js">
+					<Candidate type="Path">
+						<Value>mobile\masks.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mobileinstall.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/mobileinstall.html">
+					<Candidate type="Path">
+						<Value>mobile\mobileinstall.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mobile_icon.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/mobile_icon.png">
+					<Candidate type="Path">
+						<Value>mobile\mobile_icon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="player.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/player.css">
+					<Candidate type="Path">
+						<Value>mobile\player.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="player_compiled.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/player_compiled.js">
+					<Candidate type="Path">
+						<Value>mobile\player_compiled.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="spinner.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/spinner.png">
+					<Candidate type="Path">
+						<Value>mobile\spinner.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="storyline_compiled.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/storyline_compiled.js">
+					<Candidate type="Path">
+						<Value>mobile\storyline_compiled.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wait.gif" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/wait.gif">
+					<Candidate type="Path">
+						<Value>mobile\wait.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="slides">
+					<NamedResource name="5fBs3bGp0dh.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5fBs3bGp0dh.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5fBs3bGp0dh.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5fBs3bGp0dh.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5fBs3bGp0dh.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5fBs3bGp0dh.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5gaQZwSXpDf.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5gaQZwSXpDf.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5gaQZwSXpDf.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5gaQZwSXpDf.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5gaQZwSXpDf.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5gaQZwSXpDf.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5jb6WERJbS3.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5jb6WERJbS3.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5jb6WERJbS3.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5jb6WERJbS3.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5jb6WERJbS3.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5jb6WERJbS3.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5liMA9cURpf.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5liMA9cURpf.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5liMA9cURpf.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5liMA9cURpf.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5liMA9cURpf.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5liMA9cURpf.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5mUaOQASBNX.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5mUaOQASBNX.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5mUaOQASBNX.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5mUaOQASBNX.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5mUaOQASBNX.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5mUaOQASBNX.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5pLUIMrLqjQ.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5pLUIMrLqjQ.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5pLUIMrLqjQ.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5pLUIMrLqjQ.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5pLUIMrLqjQ.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5pLUIMrLqjQ.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5r152AUMljC.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5r152AUMljC.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5r152AUMljC.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5r152AUMljC.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5r152AUMljC.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5r152AUMljC.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5sS7IYhwUaR.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5sS7IYhwUaR.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\5sS7IYhwUaR.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5sS7IYhwUaR.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/5sS7IYhwUaR.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\5sS7IYhwUaR.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="601Ej3KmlRa.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/601Ej3KmlRa.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\601Ej3KmlRa.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="601Ej3KmlRa.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/601Ej3KmlRa.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\601Ej3KmlRa.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6269DChKlYO.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6269DChKlYO.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6269DChKlYO.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6269DChKlYO.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6269DChKlYO.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6269DChKlYO.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="65WKhJGdFWC.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/65WKhJGdFWC.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\65WKhJGdFWC.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="65WKhJGdFWC.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/65WKhJGdFWC.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\65WKhJGdFWC.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="68L24ewxksG.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/68L24ewxksG.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\68L24ewxksG.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="68L24ewxksG.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/68L24ewxksG.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\68L24ewxksG.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="69TsEBdQBhE.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/69TsEBdQBhE.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\69TsEBdQBhE.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="69TsEBdQBhE.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/69TsEBdQBhE.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\69TsEBdQBhE.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6cmrkisoHaf.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6cmrkisoHaf.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6cmrkisoHaf.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6cmrkisoHaf.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6cmrkisoHaf.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6cmrkisoHaf.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6ct0FNrYUdL.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6ct0FNrYUdL.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6ct0FNrYUdL.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6ct0FNrYUdL.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6ct0FNrYUdL.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6ct0FNrYUdL.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6fudjLFSax3.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6fudjLFSax3.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6fudjLFSax3.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6fudjLFSax3.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6fudjLFSax3.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6fudjLFSax3.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6HPWxjFBnum.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6HPWxjFBnum.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6HPWxjFBnum.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6HPWxjFBnum.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6HPWxjFBnum.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6HPWxjFBnum.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6mpbyjG5WOq.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6mpbyjG5WOq.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6mpbyjG5WOq.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6mpbyjG5WOq.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6mpbyjG5WOq.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6mpbyjG5WOq.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6PPVoNXmx8I.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6PPVoNXmx8I.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6PPVoNXmx8I.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6PPVoNXmx8I.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6PPVoNXmx8I.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6PPVoNXmx8I.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6rNESIbMF46.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6rNESIbMF46.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6rNESIbMF46.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6rNESIbMF46.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6rNESIbMF46.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6rNESIbMF46.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6RYswTn4Slr.gz" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6RYswTn4Slr.gz">
+						<Candidate type="Path">
+							<Value>mobile\slides\6RYswTn4Slr.gz</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6RYswTn4Slr.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/mobile/slides/6RYswTn4Slr.js">
+						<Candidate type="Path">
+							<Value>mobile\slides\6RYswTn4Slr.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="PackageIcons.Android.ic_launcher_36_36.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.ic_launcher_36_36.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.ic_launcher_36_36.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.ic_launcher_48_48.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.ic_launcher_48_48.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.ic_launcher_48_48.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.ic_launcher_72_72.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.ic_launcher_72_72.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.ic_launcher_72_72.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.ic_launcher_96_96.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.ic_launcher_96_96.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.ic_launcher_96_96.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_1280_720.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_1280_720.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_1280_720.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_200_320.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_200_320.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_200_320.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_320_200.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_320_200.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_320_200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_320_480.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_320_480.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_320_480.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_480_320.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_480_320.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_480_320.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_480_800.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_480_800.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_480_800.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_720_1280.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_720_1280.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_720_1280.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Android.splash_800_480.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Android.splash_800_480.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Android.splash_800_480.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default-568h@2x.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default-568h%402x.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default-568h@2x.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default-Landscape@2x~ipad.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default-Landscape%402x~ipad.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default-Landscape@2x~ipad.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default-Landscape~ipad.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default-Landscape~ipad.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default-Landscape~ipad.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default-Portrait@2x~ipad.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default-Portrait%402x~ipad.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default-Portrait@2x~ipad.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default-Portrait~ipad.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default-Portrait~ipad.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default-Portrait~ipad.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default@2x~iphone.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default%402x~iphone.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default@2x~iphone.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.Default~iphone.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.Default~iphone.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.Default~iphone.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon-120.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon-120.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon-120.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon-152.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon-152.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon-152.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon-72.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon-72.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon-72.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon-72@2x.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon-72%402x.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon-72@2x.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon-76.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon-76.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon-76.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.icon@2x.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.icon%402x.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.icon@2x.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.iOS.iTunesArtwork.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.iOS.iTunesArtwork.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.iOS.iTunesArtwork.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.Tizen.icon_117_117.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.Tizen.icon_117_117.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.Tizen.icon_117_117.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.WP.ApplicationIcon_99_99.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.WP.ApplicationIcon_99_99.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.WP.ApplicationIcon_99_99.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.WP.Background.png_144_144.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.WP.Background.png_144_144.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.WP.Background.png_144_144.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.WP.SplashScreenImage_768_1280.jpg" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.WP.SplashScreenImage_768_1280.jpg">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.WP.TileMedium.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.WP.TileMedium.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.WP.TileMedium.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PackageIcons.WP.TileSmall.png" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/Resources/PackageIcons.WP.TileSmall.png">
+					<Candidate type="Path">
+						<Value>Resources\PackageIcons.WP.TileSmall.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="story_content">
+				<NamedResource name="5VBqRIvb4ms_80_RW_DX512_DY512.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/5VBqRIvb4ms_80_RW_DX512_DY512.swf">
+					<Candidate type="Path">
+						<Value>story_content\5VBqRIvb4ms_80_RW_DX512_DY512.swf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="blank.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/blank.html">
+					<Candidate type="Path">
+						<Value>story_content\blank.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="data.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/data.swf">
+					<Candidate type="Path">
+						<Value>story_content\data.swf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fonts.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/fonts.swf">
+					<Candidate type="Path">
+						<Value>story_content\fonts.swf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fonts.xml" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/fonts.xml">
+					<Candidate type="Path">
+						<Value>story_content\fonts.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="frame.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/frame.js">
+					<Candidate type="Path">
+						<Value>story_content\frame.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="frame.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/frame.swf">
+					<Candidate type="Path">
+						<Value>story_content\frame.swf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="frame.xml" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/frame.xml">
+					<Candidate type="Path">
+						<Value>story_content\frame.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="story.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/story.js">
+					<Candidate type="Path">
+						<Value>story_content\story.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="thumbnail.jpg" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/thumbnail.jpg">
+					<Candidate type="Path">
+						<Value>story_content\thumbnail.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="user.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/user.js">
+					<Candidate type="Path">
+						<Value>story_content\user.js</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="slides">
+					<NamedResource name="5fBs3bGp0dh.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5fBs3bGp0dh.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5fBs3bGp0dh.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5gaQZwSXpDf.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5gaQZwSXpDf.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5gaQZwSXpDf.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5jb6WERJbS3.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5jb6WERJbS3.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5jb6WERJbS3.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5liMA9cURpf.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5liMA9cURpf.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5liMA9cURpf.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5mUaOQASBNX.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5mUaOQASBNX.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5mUaOQASBNX.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5pLUIMrLqjQ.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5pLUIMrLqjQ.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5pLUIMrLqjQ.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5r152AUMljC.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5r152AUMljC.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5r152AUMljC.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5sS7IYhwUaR.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/5sS7IYhwUaR.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\5sS7IYhwUaR.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="601Ej3KmlRa.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/601Ej3KmlRa.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\601Ej3KmlRa.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6269DChKlYO.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6269DChKlYO.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6269DChKlYO.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="65WKhJGdFWC.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/65WKhJGdFWC.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\65WKhJGdFWC.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="68L24ewxksG.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/68L24ewxksG.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\68L24ewxksG.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="69TsEBdQBhE.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/69TsEBdQBhE.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\69TsEBdQBhE.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6cmrkisoHaf.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6cmrkisoHaf.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6cmrkisoHaf.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6ct0FNrYUdL.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6ct0FNrYUdL.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6ct0FNrYUdL.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6fudjLFSax3.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6fudjLFSax3.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6fudjLFSax3.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6HPWxjFBnum.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6HPWxjFBnum.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6HPWxjFBnum.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6mpbyjG5WOq.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6mpbyjG5WOq.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6mpbyjG5WOq.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6PPVoNXmx8I.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6PPVoNXmx8I.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6PPVoNXmx8I.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6rNESIbMF46.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6rNESIbMF46.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6rNESIbMF46.swf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6RYswTn4Slr.swf" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/story_content/slides/6RYswTn4Slr.swf">
+						<Candidate type="Path">
+							<Value>story_content\slides\6RYswTn4Slr.swf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="views">
+				<NamedResource name="about.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/views/about.html">
+					<Candidate type="Path">
+						<Value>views\about.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="blank.html" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/views/blank.html">
+					<Candidate type="Path">
+						<Value>views\blank.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="home.css" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/views/home.css">
+					<Candidate type="Path">
+						<Value>views\home.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="home.dxview" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/views/home.dxview">
+					<Candidate type="Path">
+						<Value>views\home.dxview</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="home.js" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/views/home.js">
+					<Candidate type="Path">
+						<Value>views\home.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="readme.txt" uri="ms-resource://64189RBADESIGNLLC.45272C57033D2/Files/views/readme.txt">
+					<Candidate type="Path">
+						<Value>views\readme.txt</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
